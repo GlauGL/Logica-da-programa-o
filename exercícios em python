@@ -1,0 +1,26 @@
+#1
+#print("ola mundo")
+#2
+# numero = int(input("adicione o numero:"))
+# print(f"o numero é {numero}")
+#3             
+# numero1 = int(input("informe o primeiro numero:"))  
+# numero2 = int(input("informe o segundo numero:"))   
+
+# media = numero1+numero2
+
+# print (f"A soma é igual a {media}")     
+#4
+# nota1 = int(input("informe a primeira nota:"))
+# nota2 = int(input("informe a segundo nota:"))
+# nota3 = int(input("informe a terceira nota:"))
+# nota4 = int(input("informe a quarta nota:"))
+
+# media = (nota1+nota2+nota3+nota4)/4
+
+# print(f"A média é igual a {media}")
+
+#5
+# medida = float(input("informe a medida:")) 
+# centimetos = medida*100
+# print(f"a medida em centimetos é igual a {centimetos:.0f}cm")
