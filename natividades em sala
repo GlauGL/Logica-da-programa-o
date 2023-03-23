@@ -1,0 +1,73 @@
+# var1 = int(input("informe o primeiro numero:"))
+# var2 = int(input("informe o segundo numero:"))
+
+# media = var1+var2
+
+# print(f'a media entre os numeros é {media}')
+# print(type(media))
+
+# varl = int(input("informe o numero 4:"))
+# if varl ==4:
+#     print("x é igual a 4")
+# else:
+#     print("x é diferente de 4")
+
+# num1 =float(input("infome o primeiro numero"))
+# num2 =float(input("informe o segundo numero"))
+
+# if num1 < num2:
+#     print(f"o maior numero é{num2:.2f}")
+# elif num1 == num2:
+#     print(f"os numeros são iguais")
+# else:
+#     print(f"o maior numero é{num1:.2f}")     
+    
+
+# letra = input('Escreva uma letra: ')
+
+# if letra == 'a':
+#     print('É vogal')
+# elif letra == 'e':
+#     print('É vogal')
+# elif letra == 'i':
+#     print('é vogal')
+# else:
+#     print('Consoante')
+    
+# numero1 =float(input("Informe o priemiro numero"))
+# numero2 =float(input("Informe o segundo numero "))
+# numero3 =float(input("Informe o terceiro numero "))
+
+# if numero1 > numero2 and numero1 > numero3:
+#     print(f"o {numero1} é o maior")
+# elif numero2 > numero3 and numero2 > numero1:
+#     print(f"o {numero2} é o maior") 
+# elif numero3 > numero1 and numero3 > numero2:
+#     print(f"o {numero3} é o maior")
+# elif numero1 == numero2:
+#     print(f"o {numero1} é o maior e é igual ao {numero2}")
+# elif numero1 == numero3:
+#     print(f"o {numero1} é o maior e é igual ao {numero3}")
+# elif numero2 == numero3:
+#    print(f"o {numero2} é o maior e é igual ao {numero3}")
+# else:   
+#     print(f"erro") 
+        
+# num = int(input("Informe um numero:"))
+          
+# if num >= 0:
+#     print("o numero é positivo")
+# elif num<=0:
+#     print("o numero é negativo")
+
+# sexo = str(input("Adicione F para Femino ou M para Masculino:")) 
+# if sexo == "f" or sexo == "F":
+#      print("Feminino")
+# elif sexo == "m" or sexo == "M":   
+#     print("Masculino")   
+# else:
+#     print("Sexo Indefinido")
+    
+    
+          
+    
