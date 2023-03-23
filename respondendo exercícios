@@ -1,0 +1,12 @@
+# letra = str(input("informe a letra:").lower())
+# vogais = ["a", "e", "i", "o", "u",]
+# Consoantes = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "V", "w", "x", "y", "z",]
+
+# if letra in vogais:
+#    print("A letra é um vogal")
+# elif letra in Consoantes:
+#     print("A letra é um consoante")
+# else:
+#     print("não é uma vogal nem uma conssoante")
+
+#print(type(vogais))
