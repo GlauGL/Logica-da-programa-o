@@ -71,3 +71,56 @@
 #     print("o terceiro número é o maior e o primeiro númeor é o menor")
 # elif num3>num1 and num3>num2 and num1>num2:
 #     print("o terceiro número é o maior e o segundonúmeor é o menor")
+
+#atividade 8 (completa)
+
+# Valor1 = float(input("Informe o preço do leite em pó integral:"))
+# Valor2 = float(input("informe o preço do leite em pó desnatado:"))
+# Valor3 = float(input("informe o preço do leite em pó zero lactose:"))
+
+# if Valor1==Valor2 and Valor2==Valor3:
+#     print("todos os preços são iguais")
+# elif Valor1==Valor2 and Valor3<Valor2:
+#     print("os preços do leite em pó integral e do leite em pó desnatado são os maiores e o preço do leite em pó zero lactose é o menor")
+# elif Valor2==Valor3 and Valor1<Valor3:
+#     print("os preços do leite em pó desnatado e do leite em pó zero lactose são os maiores e o preço do leite em pó integral é o menor") 
+# elif Valor1==Valor3 and Valor2<Valor1:
+#     print("os preços do leite em pó integral e do leite em pó zero lactose são os maiores e o preço do leite em pó desnatado é o menor")   
+# elif Valor1==Valor2 and Valor3>Valor2:
+#     print("os preços do leite em pó integral e do leite em pó desnatado são os mesmos e o preço do leite em pó zero lactose é o maior")
+# elif Valor2==Valor3 and Valor1>Valor3:
+#     print("os preços do leite em pó desnatado e do leite em pó zero lactose são os mesmos e o preço do leite em pó integral é o maior") 
+# elif Valor1==Valor3 and Valor2>Valor1:
+#     print("os preços do leite em pó integral e do leite em pó zero lactose são os mesmos e o preço do leite em pó desnatado é o maior")
+# elif Valor1 < Valor2 and Valor1< Valor3:
+#     print("o leite em pó integral tem o menor preço")
+# elif Valor2 < Valor1 and Valor2< Valor3:
+#     print("o leite em pó desnatado tem o menor preço")
+# elif Valor3< Valor1 and Valor3 < Valor2:
+#     print("o leite em pó zero lactose tem o menor preço")
+
+#ativiudade 8 (reduzida)
+# Valor1 = float(input("Informe o preço do leite em pó integral:"))
+# Valor2 = float(input("informe o preço do leite em pó desnatado:"))
+# Valor3 = float(input("informe o preço do leite em pó zero lactose:"))
+
+# if Valor1==Valor2 and Valor2==Valor3:
+#     print("todos os preços são iguais")
+# elif Valor1==Valor2 and Valor3<Valor2:
+#     print("o preço do leite em pó zero lactose é o menor")
+# elif Valor2==Valor3 and Valor1<Valor3:
+#     print("o preço do leite em pó integral é o menor") 
+# elif Valor1==Valor3 and Valor2<Valor1:
+#     print("o preço do leite em pó desnatado é o menor")   
+# elif Valor1==Valor2 and Valor3>Valor2:
+#     print("os preços do leite em pó integral e do leite em pó desnatado são os mesmos esão os nemores")
+# elif Valor2==Valor3 and Valor1>Valor3:
+#     print("os preços do leite em pó desnatado e do leite em pó zero lactose são os mesmos e são os nemores") 
+# elif Valor1==Valor3 and Valor2>Valor1:
+#     print("os preços do leite em pó integral e do leite em pó zero lactose são os mesmose e são os nemores")
+# elif Valor1 < Valor2 and Valor1< Valor3:
+#     print("o leite em pó integral tem o menor preço")
+# elif Valor2 < Valor1 and Valor2< Valor3:
+#     print("o leite em pó desnatado tem o menor preço")
+# elif Valor3< Valor1 and Valor3 < Valor2:
+#     print("o leite em pó zero lactose tem o menor preço")
