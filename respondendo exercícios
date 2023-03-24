@@ -153,3 +153,13 @@
 # else:
 #     print('Erro')
 
+#Atividade 10
+# valor = str(input("informe em qual turno voce estuda, M para matutino, V para Vespertino e N para noturno:").lower())
+# if valor =="m":
+#     print("Bom Dia!")
+# elif valor=="v":
+#     print("Boa Tarde!")
+# elif valor=="n":
+#     print("Boa Noite!")
+# else:
+#     print("Valor invalido!")
