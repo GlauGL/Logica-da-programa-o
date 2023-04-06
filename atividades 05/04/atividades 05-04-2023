@@ -1,0 +1,85 @@
+# i=4
+# while i< 8:
+#     print(i) 
+#     i += 1
+
+# var2 = 1
+
+# while var2 != 0:
+#     var2 =int(input("Digite um valor:"))
+#     print(var2)
+
+# n=0
+# while n<5:
+#     n+=1
+#     if n==3:
+#         continue
+#     print(n, end="") #o comando end="" faz com que seja impresso o resultado em linha 
+
+# from time import sleep
+
+# cont = 10
+# while True:
+#     print (cont)
+#     sleep(1) #faz a contagem por segundo
+#     cont -=1
+#     if cont ==0:
+#         print("fim")
+#         break
+
+         
+# while True:
+#     sexo = str(input("digite seu sexo M para masculino e F para Feminino:")).lower()
+#     if sexo =="f":
+#         print("sexo feminino")
+#         break
+#     elif sexo =="m":
+#         print("sexo Masculino")
+#         break
+#     if sexo !="f" or sexo != "m":
+#         print("valor incoreto")
+
+
+
+# while True:
+#     print("1 para somar\n2 para subitrair \n3 para mutiplicar \n4 para dividir \n5 para sair:")
+#     op =int(input("digite a opção:"))
+#     if op==5:
+#         print("saiu")
+#         break
+#     num1 = int(input("divide o primeiro numero:"))
+#     num2 = int(input("digite o segundo vvalor:"))
+    
+#     if op ==1:
+#         print(num1+num2)
+#     elif op ==2:
+#         print(num1-num2)
+#     elif op ==3:
+#         print(num1*num2)
+#     elif op ==4:
+#         print(num1/num2)
+#     break
+
+senha = int(input('cadastre sua primeira senha:'))
+#senha2 =int(input('Confirme a senha cadastrada:'))
+            
+while True:
+    conf = int(input('Confirme a senha cadastrada: '))
+    if conf == senha:
+        print('senha confirmada')
+        break
+
+    if senha != conf:
+         print('As senhas não coicidem, tente novamente')
+            
+cont = 0
+for tentativa in range(3):
+  conf = int(input('Confirme a senha cadastrada: '))
+if conf == senha:
+        print('senha confirmada ')
+elif conf != senha:
+     cont = cont + 1
+elif cont == 3:
+        print('celular bloqueado')
+    
+print('Saiu')
