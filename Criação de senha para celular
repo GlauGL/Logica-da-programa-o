@@ -1,0 +1,25 @@
+senha = int(input('cadastre sua primeira senha:'))
+            
+while True:
+    conf = int(input('Confirme a senha cadastrada: '))
+    if conf == senha:
+        print('senha confirmada')
+        break
+
+    if senha != conf:
+         print('As senhas não coicidem, tente novamente')
+            
+cont = 0
+for tentativa in range(3):
+    conf = int(input('Confirme a senha cadastrada: '))
+    if conf == senha:
+        print('Senha confirmada')
+        break
+    elif conf != senha:
+         cont = cont + 1
+         print("A senha está incorreta, tente novamente")
+    if cont == 3:
+        print('Celular bloqueado')
+        break
+    
+print('Operação encerrada')
