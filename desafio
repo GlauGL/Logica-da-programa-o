@@ -1,0 +1,18 @@
+sorteio = []
+palavra = "fim"
+
+while True:
+  nome = str(input('insira o nome: '))
+  if nome.lower() == 'fim':
+    break
+  tel = int(input('digite o numero: '))
+  r = [nome, tel]
+
+  sorteio.append(r)
+  #print(sorteio)
+
+import random
+
+rnum = random.randrange(0, len(sorteio))
+
+print(f'O sorteado foi {sorteio[rnum][0]} e seu número é {sorteio[rnum][1]}')
